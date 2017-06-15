@@ -11,13 +11,13 @@ h1 {
 p {
   font-size: 0.95rem;
   line-height: 1.45;
-  width: 29rem;
   color:rgba(61, 70, 77, 0.55);
 }
 .copy {
   padding-left: 12rem;
   padding-top: 12rem;
   align-self: flex-start;
+  width: 29rem;
 }
 .flexbox-left {
   display: flex;
@@ -40,4 +40,19 @@ a:hover {
   background-color: #8C9195;
   color: white;
   text-decoration:none;
+}
+
+
+@media only screen and (max-width: 568px) {
+  .copy {
+    padding: 2rem;
+    align-self: flex-start;
+    margin:0 auto;
+    width: 400px;
+  }
+  .img{
+    padding-left:1.8rem;
+    width:100%;
+    height: auto;
+  }
 }
